@@ -1,0 +1,13 @@
+{
+  "name": "yukino-football-reliability-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auditable football workflow reliability component; simulated tests only",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

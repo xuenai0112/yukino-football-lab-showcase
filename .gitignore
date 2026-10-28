@@ -1,0 +1,7 @@
+node_modules/
+*.sqlite*
+.env*
+auth.json
+app/data/
+*PRIVATE*
+*.log

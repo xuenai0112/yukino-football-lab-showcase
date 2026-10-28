@@ -1,0 +1,2 @@
+// Public demonstration adapter only. Not the production identity validator.
+const rows=[['帕尔马','10167','Parma'],['伯恩茅斯','8678','AFC Bournemouth'],['阿斯顿维拉','10252','Aston Villa'],['富勒姆','9879','Fulham'],['水晶宫','9826','Crystal Palace'],['热那亚','10233','Genoa'],['尤文图斯','9885','Juventus']];export function reviewedTeamProfile(name){const r=rows.find(r=>r[0]===name);return r?{provider:'fotmob',id:r[1],url:'https://www.fotmob.com/teams/'+r[1]+'/overview'}:null;}export function reviewedFormNames(name){const r=rows.find(r=>r[0]===name);return r?[r[2]]:[];}

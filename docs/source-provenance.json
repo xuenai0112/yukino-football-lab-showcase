@@ -1,0 +1,8 @@
+{
+  "component": "src/ai/trusted-fixture-discovery.mjs",
+  "original_component": "app/ai/trusted-fixture-discovery.mjs",
+  "sha256": "6e83353bff408fd79128d7317e37b8d568f7f466aa814123e92d0abde20355ed",
+  "production_version_introduced": "0.15.31",
+  "adapters": "public synthetic demonstration only",
+  "real_model_calls_in_demo": 0
+}
